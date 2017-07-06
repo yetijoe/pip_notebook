@@ -1,0 +1,9 @@
+version: '2'
+services:
+  notebook:
+    image: "se_jupyter_py2"
+    ports: 
+      - 8889:8889
+    volumes:
+      - /var/notebook:/var/notebook
+      - /media/psf/Home/:/vm
